@@ -22,7 +22,10 @@
 					빈칸
 				</div>
 				<div>
-					<a href="/home">모두의 커뮤니티</a>
+					<div id="logotype">
+						<a href="/home">MODU</a>
+						<p>모두의 커뮤니티</p>
+					</div>
 				</div>
 				<div>
 					<div id="login-area">

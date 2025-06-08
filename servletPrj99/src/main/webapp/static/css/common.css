@@ -47,15 +47,45 @@ header div:nth-child(2) {
 }
 
 header div:nth-child(2) a {
-	font-size: 32px;
+	color: inherit;
+	font-size: 34px;
 	text-align: center;
 	display: block;
+	
+	font-weight: 900 !important;
+}
+
+#logo-type {
+	display: flex;
+	justify-content: center;
 }
 
 #login-area form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+#join-area {
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+    display: flex
+;
+    background-color: #fafafa !important;
+}
+
+#join-area > div {
+	padding: 24px 0 8px 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#join-area input {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 header > nav {
@@ -106,6 +136,10 @@ thead {
 
 th, td {
     padding: 4px 0;
+}
+
+#boardTbody tr:nth-child(even) {
+	background-color: #dbdbdb;
 }
 
 form {
