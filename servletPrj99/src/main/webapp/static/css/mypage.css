@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.content-wrap {
+	margin-top: 24px;
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 30%;
+    height: auto;
+
+    background-color: #fafafa;
+}
+
+#profile-card {
+    width: 28%;
+
+    border: 1px solid #c0c0c0;
+
+    &.img {
+        width: 100%;
+    }
+}
+
+#category {
+    width: 48%;
+    height: auto;
+
+}
+
+section {
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+#to-do-list {
+    display: none;
+}
+#post-list {
+    display: none;
+}
+#mini-game {
+    display: none;
+}
+
+#fake-img {
+    width: 100% !important;
+    height: auto !important;
+}

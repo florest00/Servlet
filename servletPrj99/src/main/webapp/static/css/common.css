@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::marker {
+  content: none;
+}
+
+body, h1, p {
+	padding: 0;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+	background-color: #f0f0f0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 20vh;
+}
+
+header h1 {
+    text-align: center;
+    color: #242424;
+}
+
+header > div:first-child {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+header div:nth-child(2) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header div:nth-child(2) a {
+	font-size: 32px;
+	text-align: center;
+	display: block;
+}
+
+#login-area form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+header > nav {
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    background-color: #242424;
+    font-size: 20px;
+}
+
+header > nav a {
+    color: #f0f0f0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    height: 65vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+    padding-bottom: 500px;
+}
+
+#table-area {
+    margin-top: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+.content-h1 {
+        padding: 48px 0 24px 0 !important;
+}
+
+table {
+	width: 100vw;
+}
+
+thead {
+    background-color: #c0c0c0;
+}
+
+th, td {
+    padding: 4px 0;
+}
+
+form {
+    display: flex;
+    justify-content: end;
+}
+
+main .button-area {
+    display: flex;
+    justify-content: end;
+}
+main button {
+    display: block;
+    /*float: right;*/
+}
+
+#gallery-area {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#fake-img {
+	/*  border: 1px solid #242424; */
+	background-color: #ccc;
+	width: 25vw;
+	height: 25vh;
+	margin-bottom: 8px;
+}
+
+.img-info {
+	margin-bottom: 8px;
+}
+
+#pagination {
+    margin-top: 48px;
+    text-align: center;
+}
+
+#pagination a, #pagination span {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: black;
+    font-size: 14px;
+}
+#pagination a.active {
+    font-weight: bold;
+    background-color: #eef;
+    border-color: #999;
+}
+
+#pagination span.disabled {
+    color: #ccc;
+    border: 1px solid #eee;
+    pointer-events: none;
+}
+
+
+footer {
+    height: 15vh;
+    background-color: #c0c0c0;
+
+    justify-content: center;
+    display: flex;
+}
+
